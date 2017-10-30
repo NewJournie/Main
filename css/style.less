@@ -1,0 +1,88 @@
+@font-face {
+    font-family: '10369';
+    src: url('../fonts/10369.eot');
+    src: url('../fonts/10369.eot') format('embedded-opentype'),
+         url('../fonts/10369.woff2') format('woff2'),
+         url('../fonts/10369.woff') format('woff'),
+         url('../fonts/10369.ttf') format('truetype'),
+         url('../fonts/10369.svg#10369') format('svg');
+}
+@font-face {
+    font-family: '3952';
+    src: url('../fonts/3952.eot');
+    src: url('../fonts/3952.eot') format('embedded-opentype'),
+         url('../fonts/3952.woff2') format('woff2'),
+         url('../fonts/3952.woff') format('woff'),
+         url('../fonts/3952.ttf') format('truetype'),
+         url('../fonts/3952.svg#3952') format('svg');
+}
+
+@font-main:'10369';
+@font-second:'3952';
+@color-red:#ff2e6e;
+@color-orange:#dd7903;
+@background-color:#555555;
+
+section#table{
+	h1{
+		font-family: @font-main ;
+		font-size: 55px;
+		color:black;
+	}
+	#suits{
+		font-family: @font-second;
+		font-size: 30px;
+		background-color:white; 
+		border:none;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			-ms-border-radius: 5px;
+			-o-border-radius: 5px;
+			border-radius: 5px;
+		margin-top: 200px;
+	}
+	#tasks{
+		font-family: @font-second;
+		font-size: 30px;
+		background-color:white; 
+		border:none;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			-ms-border-radius: 5px;
+			-o-border-radius: 5px;
+			border-radius: 5px;
+		margin-top: 200px;
+	}
+	#one{
+		color:@color-orange;
+	}
+	#two{
+		margin-left:200px;
+		color: @color-red;
+	}
+}
+
+section#tables{
+	h1{
+		font-family: @font-main ;
+		font-size: 55px;
+	}
+	a{
+		font-family: arial;
+		font-size: 25px;
+		margin-top: 150px;
+		margin-left: 150px;
+		margin-right: 150px;
+		text-decoration: none;
+		:focus{
+			outline: none;
+			color:#e3e3e3;
+		}
+	}
+	#thord{
+		color:blue;
+	}
+	#third{
+		color:red;
+	}
+}
